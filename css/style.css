@@ -3,14 +3,18 @@ main{
   background-color: #272b30;
   font-family: "Roboto";
   position: relative;
-  margin-top: 40vh;
+  /* margin-top: 40vh; */
   padding-top: 2%;
   text-align: center;
 }
 
+h1,h2,h3{
+  font-family: "Roboto";
+}
+
+
 h2{
   font-size: 120%;
-  font-family: "Robot-bold";
 }
 
 h3{
@@ -21,7 +25,7 @@ hr{
   margin: auto;
   border-color: #aaa;
   width: 50%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 /*Navigation Bar */
@@ -58,7 +62,7 @@ hr{
 }
 
 @media (max-width: 750px) {
-    #background-video { display: none; }
+    #background-video { display: flex; }
     body {
       background: url("images\Lake - 91562_Moment.jpg") no-repeat;
       background-size: cover;
@@ -70,11 +74,12 @@ hr{
 .landing-page {
   text-align: center;
   color: #fff;
+  margin: 5% auto 10% auto;
 }
 
 .image-cropper{
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -84,7 +89,8 @@ hr{
 .profile-image {
   width: 100%;
   height: auto;
-  margin-bottom: -30px;
+  /* crop/adjust image to fit in the circle*/
+  margin-top: -30px;
 }
 
 .intro-msg {
@@ -117,6 +123,10 @@ hr{
   width: 15%;
 }
 
+#kpmg-img {
+  padding-bottom: 1%;
+  padding-top: 3%;
+}
 
 .work-left-description{
   clear: left;
@@ -151,6 +161,16 @@ hr{
 }
 
 /* Footer Container */
+
+.footer h2{
+  margin-top: 5%;
+}
+
+.footer {
+  background-color: #3a3f44;
+  padding-top: 3%;
+}
+
 .signature {
   padding: 2.5%;
 }
@@ -170,8 +190,19 @@ a:hover{
   color: #fff;
 }
 
-.photo {
+.gallery-item {
   object-fit: cover;
   height: 225px;
+  max-width: 100%;
+}
+
+#gallery-modal .modal-img {
   width: 100%;
+
+}
+
+/* Contact */
+
+form{
+  padding: 3%;
 }

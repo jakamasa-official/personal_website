@@ -9,8 +9,13 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
+  <!-- Additional js styling -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
   <!-- css styling file link -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +53,7 @@
         <a class="nav-link" href="photography.html">Photography</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">Contact</a>
+        <a class="nav-link" href="contact.html">Contact</a>
       </li>
     </ul>
   </div>
@@ -65,50 +70,40 @@
           <p>During my free time, I enjoy taking photos both digital and in film. I have amassed over 20 modern, vintage and antique cameras for my personal collection.</p>
         </div>
       </div>
-    </section>
+  </section>
 
-  <div class="album py-5 bg-light">
+  <div class="gallery py-5 bg-light">
     <div class="container">
-
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\DSC05673.jpg" alt="taro-miho-coco">
+            <img class="gallery-item" src="images\DSC05673.jpg" alt="taro-miho-coco">
             <div class="card-body">
               <p class="card-text">Odaiba, Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\DSC06030.jpg" alt="sooin-kyoto">
+            <img class="gallery-item" src="images\DSC06030.jpg" alt="sooin-kyoto">
             <div class="card-body">
               <p class="card-text">Kyoto, Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\68278176_10157565239154629_3370885454265057280_n.jpg" alt="tokyo-tower">
+            <img class="gallery-item" src="images\68278176_10157565239154629_3370885454265057280_n.jpg" alt="tokyo-tower">
             <div class="card-body">
               <p class="card-text">Tokyo Tower, Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
@@ -116,42 +111,33 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\brooklynbridge_newyork_sonyarii.jpg" alt="new-york-brooklyn-bridge">
+            <img class="gallery-item" src="images\brooklynbridge_newyork_sonyarii.jpg" alt="new-york-brooklyn-bridge">
             <div class="card-body">
               <p class="card-text">Brooklyn Bridge, New York City, U.S.</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\korea_sonyarii.jpg" alt="new-york-brooklyn-bridge">
+            <img class="gallery-item" src="images\korea_sonyarii.jpg" alt="new-york-brooklyn-bridge">
             <div class="card-body">
               <p class="card-text">Seoul, SouthKorea</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\little tokyo_Yashica-D_KodakPortra 400.jpg" alt="california-yashica-kodak-film">
+            <img class="gallery-item" src="images\little tokyo_Yashica-D_KodakPortra 400.jpg" alt="california-yashica-kodak-film">
             <div class="card-body">
               <p class="card-text">Little Tokyo/ LA, California, U.S.</p>
               <p class="card-text">Shot with Yashica-D Kodal (Portra 400)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
@@ -159,126 +145,99 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\mnotreal_mamiya-c3_kodakportra160.jpg" alt="montreal-mamiya-c3-kodak-film">
+            <img class="gallery-item" src="images\mnotreal_mamiya-c3_kodakportra160.jpg" alt="montreal-mamiya-c3-kodak-film">
             <div class="card-body">
               <p class="card-text">Montreal, Quebec, Canada</p>
               <p class="card-text">Shot with Mamiya C3 (Kodak Portra 160)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\newyork_iphone.jpg" alt="new-york-iphone">
+            <img class="gallery-item" src="images\newyork_iphone.jpg" alt="new-york-iphone">
             <div class="card-body">
               <p class="card-text">Central Park, New York City, U.S.</p>
               <p class="card-text">Shot with iPhone X</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\newyork_nikon.jpg" alt="new-york-bridge">
+            <img class="gallery-item" src="images\newyork_nikon.jpg" alt="new-york-bridge">
             <div class="card-body">
               <p class="card-text">East River, New York City, U.S.</p>
               <p class="card-text">Shot with NikonD4500</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\newyork_sonyarii.jpg" alt="new-york-bridge">
+            <img class="gallery-item" src="images\newyork_sonyarii.jpg" alt="new-york-bridge">
             <div class="card-body">
               <p class="card-text">Dumbo, New York City, U.S.</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\00950001.jpg" alt="montreal-film">
+            <img class="gallery-item" src="images\00950001.jpg" alt="montreal-film">
             <div class="card-body">
               <p class="card-text">Montreal, Quebec, Canada</p>
               <p class="card-text">Shot with MamiyaC3 (film)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\38370014.JPG" alt="montreal-smoking-balcony">
+            <img class="gallery-item" src="images\38370014.JPG" alt="montreal-smoking-balcony">
             <div class="card-body">
               <p class="card-text">Montreal, Quebec, Canada</p>
               <p class="card-text">Shot with MamiyaC3 (film)</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\DSC05300.jpg" alt="garden-flower-girl">
+            <img class="gallery-item" src="images\DSC05300.jpg" alt="garden-flower-girl">
             <div class="card-body">
               <p class="card-text">Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\DSC05341.jpg" alt="garden-flower-girl-2">
+            <img class="gallery-item" src="images\DSC05341.jpg" alt="garden-flower-girl-2">
             <div class="card-body">
               <p class="card-text">Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img class="photo" src="images\DSC06150.jpg" alt="tokyo-tower-balloons">
+            <img class="gallery-item" src="images\DSC06150.jpg" alt="tokyo-tower-balloons">
             <div class="card-body">
               <p class="card-text">Tokyo Tower, Tokyo, Japan</p>
               <p class="card-text">Shot with SonyARII</p>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                </div>
               </div>
             </div>
           </div>
@@ -287,19 +246,54 @@
     </div>
   </div>
 
-  <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <!-- Modal -->
+  <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images\DSC05673.jpg" class="modal-img img-fluid" alt="modal-img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<main>
+  <section class="footer">
+
+    <div class="container-fluid">
+      <h2>More on me: </h2>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/tak-hirayama-67b2a6105/" style="color: #aaa"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/jakamasa.official/" style="color: #aaa"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/jakamasa-official/" style="color: #aaa"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.reddit.com/r/funny/comments/59blbt/a_kid_i_went_to_middle_school_got_put_in_the/" style="color: #aaa"><i class="fa-brands fa-square-reddit"></i></a>
+      </div>
+
+      <p class=signature>© Tak Hirayama @ Tokyo</p>
+    </div>
+  </section>
+
+</main>
+
+  <!-- <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
     <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
     <div class="w3-modal-content w3-animate-zoom">
       <img id="img01" style="width:100%">
     </div>
 
   </div>
+
+
   <script>
     function onClick(element) {
       document.getElementById("img01").src = element.src;
       document.getElementById("modal01").style.display = "block";
     }
-  </script>
+  </script> -->
 
 
 </body>
