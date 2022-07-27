@@ -1,0 +1,177 @@
+main{
+  color: #aaa;
+  background-color: #272b30;
+  font-family: "Roboto";
+  position: relative;
+  margin-top: 40vh;
+  padding-top: 2%;
+  text-align: center;
+}
+
+h2{
+  font-size: 120%;
+  font-family: "Robot-bold";
+}
+
+h3{
+  font-size: 90%;
+}
+
+hr{
+  margin: auto;
+  border-color: #aaa;
+  width: 50%;
+  padding-bottom: 10%;
+}
+
+/*Navigation Bar */
+.navbar{
+  padding: 0 0 0.01%;
+}
+
+.navbar-brand{
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Background-page */
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("images\Lake - 91562_Moment.jpg") no-repeat;
+      background-size: cover;
+    }
+}
+
+/* Landing page */
+
+.landing-page {
+  text-align: center;
+  color: #fff;
+}
+
+.image-cropper{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin: 3% auto;
+}
+.profile-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: -30px;
+}
+
+.intro-msg {
+  text-align: center;
+  display: block;
+  margin: 3% auto;
+  width: 30%;
+
+}
+
+/* Work */
+
+.work-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+
+}
+
+.work-left{
+  float: left;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.work-right{
+  float: right;
+  margin-left: 30px;
+  width: 15%;
+}
+
+
+.work-left-description{
+  clear: left;
+}
+
+.skill-right-description{
+  clear: right;
+}
+
+/* testimonials */
+
+.testimonials{
+  color: #aaa;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Skills section */
+
+.skills{
+  display: block;
+  margin: 3% auto;
+}
+
+/* Footer Container */
+.signature {
+  padding: 2.5%;
+}
+a {
+
+  font-size: 1.5rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+/* Photography */
+
+.lead-photo-msg {
+  color: #fff;
+}
+
+.photo {
+  object-fit: cover;
+  height: 225px;
+  width: 100%;
+}
