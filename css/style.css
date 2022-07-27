@@ -194,6 +194,7 @@ a:hover{
   object-fit: cover;
   height: 225px;
   max-width: 100%;
+  cursor: pointer;
 }
 
 #gallery-modal .modal-img {
